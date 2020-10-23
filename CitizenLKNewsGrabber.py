@@ -36,6 +36,5 @@ if __name__ == '__main__':
     for site in sites:
         grabSite(site)
     driver.quit()
-    a_file = open('citizen_news_'+str(today)+'.txt', 'w', encoding='utf-8', errors='ignore')
-    for news in news_list:
-        a_file.write(str(news))
+    a_file = open('Sinhala_News/Citizen/citizen_news_'+str(today)+'.txt', 'w', encoding='utf-8', errors='ignore')
+    a_file.write(str(news_list))

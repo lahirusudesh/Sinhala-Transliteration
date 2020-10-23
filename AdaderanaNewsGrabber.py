@@ -20,8 +20,8 @@ def getDate(date):
 def grabSite(url):
     driver.get(url)
     driver.implicitly_wait(3)
-    #titles = ['උණුසුම් පුවත්','වෙනත් පුවත්','ක්‍රීඩා පිට්ය','සයුරෙන් එතෙර']
-    titles = ['උණුසුම් පුවත්']
+    titles = ['උණුසුම් පුවත්','වෙනත් පුවත්','ක්‍රීඩා පිට්ය','සයුරෙන් එතෙර']
+    #titles = ['උණුසුම් පුවත්']
     for title in titles:
         print(title)
         driver.find_element(By.XPATH, '//a[@title =\''+title+'\']').click()
@@ -42,7 +42,6 @@ if __name__ == '__main__':
     print(today)
     for site in sites:
         grabSite(site)
-    #getDate(['|', 'October', '23,', '2020', '', '9:33', 'am'])
     driver.quit()
-    a_file = open('news_updated.txt', 'w', encoding='utf-8', errors='ignore')
+    a_file = open('Sinhala_News/AdaDerana/adaderana_news_'+str(today)+'.txt', 'w', encoding='utf-8', errors='ignore')
     a_file.write(str(news_list))
