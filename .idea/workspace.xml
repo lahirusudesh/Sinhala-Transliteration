@@ -24,8 +24,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdaderanaNewsGrabber.py" beforeDir="false" afterPath="$PROJECT_DIR$/AdaderanaNewsGrabber.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CitizenLKNewsGrabber.py" beforeDir="false" afterPath="$PROJECT_DIR$/CitizenLKNewsGrabber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sinhala_News/AdaDerana/adaderana_news_2020-10-23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sinhala_News/AdaDerana/adaderana_news_2020-10-23.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-10-23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-10-23.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/citizen_news_2020-10-23.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/citizen_news_updated.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Python.AdaderanaNewsGrabber">
+  <component name="RunManager" selected="Python.CitizenLKNewsGrabber">
     <configuration name="AdaderanaNewsGrabber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FYP_Approches" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,8 +164,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.AdaderanaNewsGrabber" />
         <item itemvalue="Python.CitizenLKNewsGrabber" />
+        <item itemvalue="Python.AdaderanaNewsGrabber" />
         <item itemvalue="Python.test7" />
         <item itemvalue="Python.test5" />
         <item itemvalue="Python.test6" />
