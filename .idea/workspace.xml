@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2303b74b-6546-4137-af55-c0c1cef0b387" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web-scraping.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdaderanaNewsGrabber.py" beforeDir="false" afterPath="$PROJECT_DIR$/AdaderanaNewsGrabber.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CitizenLKNewsGrabber.py" beforeDir="false" afterPath="$PROJECT_DIR$/CitizenLKNewsGrabber.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/citizen_news_2020-10-23.txt" beforeDir="false" />
@@ -182,22 +202,22 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.736@0.0.1366.736" timestamp="1603130825910" />
-    <state width="1345" height="160" key="GridCell.Tab.0.bottom" timestamp="1603471941151">
+    <state width="1345" height="160" key="GridCell.Tab.0.bottom" timestamp="1603472120789">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1345" height="160" key="GridCell.Tab.0.bottom/0.0.1366.736@0.0.1366.736" timestamp="1603471941151" />
-    <state width="1345" height="160" key="GridCell.Tab.0.center" timestamp="1603471941151">
+    <state width="1345" height="160" key="GridCell.Tab.0.bottom/0.0.1366.736@0.0.1366.736" timestamp="1603472120789" />
+    <state width="1345" height="160" key="GridCell.Tab.0.center" timestamp="1603472120789">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1345" height="160" key="GridCell.Tab.0.center/0.0.1366.736@0.0.1366.736" timestamp="1603471941151" />
-    <state width="1345" height="160" key="GridCell.Tab.0.left" timestamp="1603471941151">
+    <state width="1345" height="160" key="GridCell.Tab.0.center/0.0.1366.736@0.0.1366.736" timestamp="1603472120789" />
+    <state width="1345" height="160" key="GridCell.Tab.0.left" timestamp="1603472120789">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1345" height="160" key="GridCell.Tab.0.left/0.0.1366.736@0.0.1366.736" timestamp="1603471941151" />
-    <state width="1345" height="160" key="GridCell.Tab.0.right" timestamp="1603471941151">
+    <state width="1345" height="160" key="GridCell.Tab.0.left/0.0.1366.736@0.0.1366.736" timestamp="1603472120789" />
+    <state width="1345" height="160" key="GridCell.Tab.0.right" timestamp="1603472120789">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1345" height="160" key="GridCell.Tab.0.right/0.0.1366.736@0.0.1366.736" timestamp="1603471941151" />
+    <state width="1345" height="160" key="GridCell.Tab.0.right/0.0.1366.736@0.0.1366.736" timestamp="1603472120789" />
     <state width="1345" height="226" key="GridCell.Tab.1.bottom" timestamp="1603436711021">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
