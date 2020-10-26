@@ -2,6 +2,9 @@ from webbrowser import Chrome
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+import os
+# Look to the path of your current working directory
+
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 sites = ['https://www.citizen.lk/category/8']
@@ -9,6 +12,7 @@ driver = webdriver.Chrome('C:\\SeleniumDriver\\chromedriver')
 today = datetime.now().date()
 addresses = []
 news_list = []
+working_directory = os.getcwd()
 
 def getDate(date):
     months = ['january','february','march','aprial','may','june','july','august','september','october','november','december']
@@ -36,5 +40,5 @@ if __name__ == '__main__':
     for site in sites:
         grabSite(site)
     driver.quit()
-    a_file = open('Sinhala_News/Citizen/citizen_news_'+str(today)+'.txt', 'w', encoding='utf-8', errors='ignore')
+    a_file = open('G:/FYP/FYP_Approches/Sinhala_News/Citizen/citizen_news_'+str(today)+'.txt', 'w', encoding='utf-8', errors='ignore')
     a_file.write(str(news_list))

@@ -1,19 +1,27 @@
-from webbrowser import Chrome
+
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from time import sleep
+import os
 sites = ['http://sinhala.adaderana.lk/']
 driver = webdriver.Chrome('C:\\SeleniumDriver\\chromedriver')
 today = datetime.now().date()
 addresses = []
 news_list = []
+working_directory = os.getcwd()
+
 def getDate(date):
     months = ['january','february','march','aprial','may','june','july','august','september','october','november','december']
     month = months.index(date[0].lower())+1
     day = int(date[1].split(',')[0])
     year = int(date[2])
+    x = datetime(year,month,day).date()
+    return x
+def getDate1(date):
+    months = ['january','february','march','aprial','may','june','july','august','september','october','november','december']
+    month = months.index(date[1].lower())+1
+    day = int(date[2].split(',')[0])
+    year = int(date[3])
     x = datetime(year,month,day).date()
     return x
 
@@ -27,11 +35,14 @@ def grabSite(url):
         driver.find_element(By.XPATH, '//a[@title =\''+title+'\']').click()
         elements = driver.find_elements(By.XPATH, "//h2/a")
         for element in elements:
-            addr = element.get_attribute("href")
-            addresses.append(addr)
+            date = element.find_element_by_xpath("//div[@class='comments']/span").text
+            date = str(date).split(' ')
+            if getDate1(date) == today:
+                addr = element.get_attribute("href")
+                addresses.append(addr)
     for address in addresses:
         driver.get(address)
-        date  = driver.find_element_by_xpath('//p[@class="news-datestamp english-font"]').text
+        date = driver.find_element_by_xpath('//p[@class="news-datestamp english-font"]').text
         date = str(date).split(' ')
         if getDate(date) == today:
             news = driver.find_element_by_xpath("//div[@class='news-content']").text
@@ -43,5 +54,5 @@ if __name__ == '__main__':
     for site in sites:
         grabSite(site)
     driver.quit()
-    a_file = open('Sinhala_News/AdaDerana/adaderana_news_'+str(today)+'.txt', 'w', encoding='utf-8', errors='ignore')
+    a_file = open('G:/FYP/FYP_Approches/Sinhala_News/AdaDerana/adaderana_news_'+str(today)+'.txt', 'w', encoding='utf-8', errors='ignore')
     a_file.write(str(news_list))
