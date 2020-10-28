@@ -21,10 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2303b74b-6546-4137-af55-c0c1cef0b387" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdaderanaNewsGrabber.py" beforeDir="false" afterPath="$PROJECT_DIR$/AdaderanaNewsGrabber.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitizenLKNewsGrabber.py" beforeDir="false" afterPath="$PROJECT_DIR$/CitizenLKNewsGrabber.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-10-24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-10-24.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-scraping.bat" beforeDir="false" afterPath="$PROJECT_DIR$/web-scraping.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
