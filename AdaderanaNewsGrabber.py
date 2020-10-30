@@ -35,18 +35,12 @@ def grabSite(url):
         driver.find_element(By.XPATH, '//a[@title =\''+title+'\']').click()
         elements = driver.find_elements(By.XPATH, "//h2/a")
         for element in elements:
-            date = element.find_element_by_xpath("//div[@class='comments']/span").text
-            date = str(date).split(' ')
-            if getDate1(date) == today:
-                addr = element.get_attribute("href")
-                addresses.append(addr)
+            addr = element.get_attribute("href")
+            addresses.append(addr)
     for address in addresses:
         driver.get(address)
-        date = driver.find_element_by_xpath('//p[@class="news-datestamp english-font"]').text
-        date = str(date).split(' ')
-        if getDate(date) == today:
-            news = driver.find_element_by_xpath("//div[@class='news-content']").text
-            news_list.append(news)
+        news = driver.find_element_by_xpath("//div[@class='news-content']").text
+        news_list.append(news)
 
 
 if __name__ == '__main__':
@@ -56,3 +50,4 @@ if __name__ == '__main__':
     driver.quit()
     a_file = open('G:/FYP/FYP_Approches/Sinhala_News/AdaDerana/adaderana_news_'+str(today)+'.txt', 'w', encoding='utf-8', errors='ignore')
     a_file.write(str(news_list))
+    a_file.close()
