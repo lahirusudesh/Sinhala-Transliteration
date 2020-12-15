@@ -11,6 +11,9 @@ TrigramN = 4
 BigramN = 3
 ThreeSyllableChunksList = {}
 TwoSyllableChunksList = {}
+UniqueWordList = []
+WordList = []
+english_words = set(nltk.corpus.words.words())
 
 
 def DivideTokenIntoNSyllableChunks(token, n):
@@ -22,7 +25,6 @@ def GetTrigramCount(word):
     a_file = open('threeSyllable.txt', 'r', encoding='utf-8', errors='ignore')
     x = a_file.read()
     ThreeSyllableChunksList = json.loads(x)
-    print(y[word])
 
 
 def GetBigramCount(word):
@@ -56,22 +58,42 @@ def GenarateTwoSyllableChunks(tokenized_sent):
                 else:
                     TwoSyllableChunksList[chunk] = 1
 
+def GenarateUniqueWordList(tokenized_sent):
+    for sent in tokenized_sent:
+        for word in sent:
+            if word not in UniqueWordList and word not in english_words:
+                UniqueWordList.append(word)
+def GenarateWordList(tokenized_sent):
+    for sent in tokenized_sent:
+        for word in sent:
+            WordList.append(word)
+
 def oneDArray(x):
     return list(chain(*x))
 
 def GenarateNGramModel():
-    if os.path.isfile('combined.txt'):
-        with io.open('combined.txt', encoding='utf8') as fin:
-            text = fin.read()
+    newsListOne = []
+    text = ''
+    with open("combined.txt", 'r', encoding='utf-8', errors='ignore') as outfile:
+        newslist = json.load(outfile)
+    for news in newslist:
+        newsListOne.extend(news)
+    text = ' '.join([str(elem) for elem in newsListOne])
     tokenized_text = [list(map(str.lower, nltk.word_tokenize(sent)))
                       for sent in nltk.sent_tokenize(text)]
     GenarateTwoSyllableChunks(tokenized_text)
     GenarateThreeSyllableChunks(tokenized_text)
+    GenarateUniqueWordList(tokenized_text)
+    GenarateWordList(tokenized_text)
+    with open('WordsList.txt', 'w', encoding='utf-8', errors='ignore') as file1:
+        json.dump(WordList,file1)
+    with open('UniqueWords.txt', 'w', encoding='utf-8', errors='ignore') as file2:
+        json.dump(UniqueWordList,file2)
     a_file = open('twoSyllable.txt', 'w', encoding='utf-8', errors='ignore')
-    a_file.write(json.dumps(TwoSyllableChunksList))
+    json.dump(TwoSyllableChunksList, a_file)
     a_file.close()
     a_file = open('threeSyllable.txt', 'w', encoding='utf-8', errors='ignore')
-    a_file.write(json.dumps(ThreeSyllableChunksList))
+    json.dump(ThreeSyllableChunksList,a_file)
     a_file.close()
 
 if __name__ == '__main__':

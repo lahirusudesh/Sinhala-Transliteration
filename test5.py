@@ -11,7 +11,29 @@ sys.setrecursionlimit(10**6)
 # special characters
 special_chars = string.punctuation
 PermutationList = []
-SimilarLetterGroup = [{'\u0DD9','\u0DD0','\u0DDA',''},{'\u0DCF', ''},{'අ', 'ඇ', 'එ'},{'ඇ','ඈ'},{'අ','ආ'},{'එ','ඒ'},{'ක','ඛ'},{'ල','ළ'},{'ප','ඵ'},{'ග','ඝ'},{'ච','ඡ'},{'ෂ','ශ'},{'බ','භ'},{'ඉ','ඊ','යි'},{'ඩ','ඪ','ද','ධ','ඳ'},{'ජ','ඣ'},{'න','ණ'},{'ට','ඨ'},{'ත','ථ'}]
+SimilarLetterGroup = [{'\u0DD0','\u0DD1‍'},
+                      {'\u0DDC','\u0DDD'},
+                      {'\u0DD4','\u0DD6'},
+                      {'\u0DD9','\u0DDA'},
+                      {'අ','ආ','ඇ','ඈ'},
+                      {'ඉ','ඊ','යි'},
+                      {'උ','ඌ'},
+                      {'එ','ඒ'},
+                      {'ක','ඛ'},
+                      {'ල','ළ'},
+                      {'ප','ඵ'},
+                      {'ග','ඝ'},
+                      {'ච','ඡ'},
+                      {'බ','භ','ඹ'},
+                      
+                      {'ඩ','ඪ','ද','ධ','ඳ'},
+                      {'ජ','ඣ'},
+                      {'න','ණ'},
+                      {'ට','ඨ'},
+                      {'ත','ථ'},
+                      {'ස', 'ශ', 'ෂ'},
+                      {''}]
+
 def Preprocess(InputText):
     UniqueWordList = []
     tokenized_sent = [list(map(str.lower, nltk.word_tokenize(sent)))
@@ -64,13 +86,7 @@ if __name__ == '__main__':
         with io.open('adaderana.txt', encoding='utf8') as fin:
             text = fin.read()
     UniqueWordList = Preprocess(text)
-    #unigram_counter_model = SetUpUnigramModel()
-    #for word in UniqueWordList:
-    #word = "සාකාච්චා"
-    word = ""
-    #word = "එදිරිනීතිය"
-    #word = "අර්ථික"
+    word = "සඳහා"
     GeneratePermutations(word)
     print(PermutationList)
-    #BestSuggestion = SelectBestSuggestion(unigram_counter_model,PermutationList,word)
 

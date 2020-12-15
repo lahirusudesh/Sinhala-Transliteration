@@ -84,7 +84,6 @@ def Translate(text):
         r = v
         text = text.replace(r, v)
 
-
     # constants with vowels modifiers
     for i in range(0,len(consonants)):
         for j in range(0,nVowels):
@@ -92,8 +91,6 @@ def Translate(text):
             v = consonantsUni[i] + vowelModifiersUni[j]
             r = s
             text = text.replace(r, v)
-
-
 
     # Hal kirima
     for i in range(0, len(consonants)):
@@ -109,7 +106,6 @@ def Translate(text):
     return text
 
 if __name__ == '__main__':
-    print(Translate("lahiro)‍‍‍‍,laahiru, kramaya"))
     output = []
     with open('data.csv', 'rt')as f:
         data = csv.DictReader(f)

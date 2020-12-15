@@ -42,7 +42,7 @@ consonantsUni.extend(['ඬ','ඳ','ඟ','ථ','ධ','ඝ','ඡ','ඵ','භ','ශ
 
 consonants.extend(['nnd','nndh','nng','Th','Dh','gh','Ch','ph','bh','sh','Sh','GN','KN','Lu','dh','ch','kh','th'])
 
-consonantsUni.extend(['ට','ක','ඩ','න','ප','බ','ම','‍ය','‍ය','ය','ජ','ල','ව','ව','ස','හ','ණ','ළ','ඛ','ඝ','ඨ','ඪ','ඵ','ඹ','ෆ','ඣ','ග'])
+consonantsUni.extend(['ට','ක','ද','න','ප','බ','ම','‍ය','‍ය','ය','ජ','ල','ව','ව','ස','හ','ණ','ළ','ඛ','ඝ','ඨ','ඪ','ඵ','ඹ','ෆ','ඣ','ග'])
 
 consonants.extend(['t','k','d','n','p','b','m','\\u005C' + 'y','Y','y','j','l','v','w','s','h','N','L','K','G','T','D','P','B','f','q','g'])
 
@@ -122,4 +122,3 @@ if __name__ == '__main__':
                 if words[i] not in english_words or not words[i].isalpha():
                     words[i] = Translate(words[i])
             print(' '.join(word for word in words))
-            #print(Translate(aaa))

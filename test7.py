@@ -1,3 +1,4 @@
+#this used a pre created
 # -*- coding: utf-8 -*-
 import json
 import os
@@ -63,16 +64,16 @@ def GeneratePermutations(word):
                             PermutationList.append(new_word)
                             GeneratePermutations(new_word)
 def SetUpUnigramModel():
-    if os.path.isfile('combined.txt'):
-        with io.open('combined.txt', encoding='utf8') as fin:
-            text = fin.read()
-    tokenized_text = [list(map(str.lower, nltk.word_tokenize(sent)))
-                      for sent in nltk.sent_tokenize(text)]
-    #print(tokenized_text)
+    newsListOne = []
+    with open("combined.txt", 'r', encoding='utf-8', errors='ignore') as outfile:
+        newslist = json.load(outfile)
+    for news in newslist:
+        newsListOne.extend(news)
+    text = ' '.join([str(elem) for elem in newsListOne])
+    tokenized_text = [list(map(str.lower, nltk.word_tokenize(sent))) for sent in nltk.sent_tokenize(text)]
     text_unigrams = [ngrams(sent, 1) for sent in tokenized_text]
     unigram_counter_model = NgramCounter(text_unigrams)
     return unigram_counter_model
-
 
 def SelectBestSuggestion(unigram_model,Bigram_counter_model,Trigram_counter_model,word):
     highestUnigramFrequency = 0
@@ -101,7 +102,7 @@ def SelectBestSuggestion(unigram_model,Bigram_counter_model,Trigram_counter_mode
         HighestBigramScore = 0
         for w in PermutationList:
             TwoSyllableChunks = []
-            if len(w) > 3:
+            if len(w) > BigramN:
                 TwoSyllableChunks = DivideTokenIntoNSyllableChunks(w, BigramN)
                 WordBigramScore = 0
                 for TwoSyllableChunk in TwoSyllableChunks:
@@ -128,12 +129,12 @@ if __name__ == '__main__':
     Unigram_counter_model = SetUpUnigramModel()
     Bigram_counter_model = GenarateThreeSyllableChunks()
     Trigram_counter_model = GenarateTwoSyllableChunks()
-    wordlist = ["අර්තික","සාකාච්චා","සහබාගි","තිඩෙනෙකු", "අමාත්‍යන්ශ", "අසඩිතයින්ගෙ", "කරඉ"]
     for word in UniqueWordList:
-    #for word in wordlist:
         PermutationList = []
         GeneratePermutations(word)
+        print(PermutationList)
         BestSuggestion = SelectBestSuggestion(Unigram_counter_model,Bigram_counter_model,Trigram_counter_model,word)
-        #f = a=open('myfile.txt', 'a', encoding='utf-8', errors='ignore')
         text = text.replace(word,BestSuggestion)
     print(text)
+    with open('myfile.txt', 'w', encoding='utf-8', errors='ignore') as f_out:
+        f_out.write(text)

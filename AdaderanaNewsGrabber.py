@@ -1,4 +1,4 @@
-
+import json
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -48,6 +48,6 @@ if __name__ == '__main__':
     for site in sites:
         grabSite(site)
     driver.quit()
-    a_file = open('G:/FYP/FYP_Approches/Sinhala_News/AdaDerana/adaderana_news_'+str(today)+'.txt', 'w', encoding='utf-8', errors='ignore')
-    a_file.write(str(news_list))
-    a_file.close()
+    with open('G:/FYP/FYP_Approches/Sinhala_News/AdaDerana/adaderana_news_'+str(today)+'.txt', 'w', encoding='utf-8', errors='ignore') as a_file:
+        json.dump(news_list,a_file)
+

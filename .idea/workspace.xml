@@ -20,16 +20,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2303b74b-6546-4137-af55-c0c1cef0b387" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HiruNewsGrabber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sinhala_News/AdaDerana/adaderana_news_2020-10-29.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-10-29.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sinhala_News/HiruNews/hiru_news_2020-10-29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PermutationDictionary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/AdaDerana/adaderana_news_2020-11-01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/AdaDerana/adaderana_news_2020-11-08.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/AdaDerana/adaderana_news_2020-11-09.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/AdaDerana/adaderana_news_2020-11-13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/AdaDerana/adaderana_news_2020-11-15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/AdaDerana/adaderana_news_2020-11-17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/AdaDerana/adaderana_news_2020-11-19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/AdaDerana/adaderana_news_2020-11-21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/AdaDerana/adaderana_news_2020-11-22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-10-31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-11-01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-11-02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-11-04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-11-07.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-11-09.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-11-10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-11-12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-11-13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-11-14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-11-15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-11-17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-11-19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-11-21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-11-22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/HiruNews/hiru_news_2020-11-01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/HiruNews/hiru_news_2020-11-02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/HiruNews/hiru_news_2020-11-04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/HiruNews/hiru_news_2020-11-07.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/HiruNews/hiru_news_2020-11-08.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/HiruNews/hiru_news_2020-11-09.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/HiruNews/hiru_news_2020-11-12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/HiruNews/hiru_news_2020-11-13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/HiruNews/hiru_news_2020-11-14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/HiruNews/hiru_news_2020-11-15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/HiruNews/hiru_news_2020-11-17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/HiruNews/hiru_news_2020-11-19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/HiruNews/hiru_news_2020-11-21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sinhala_News/HiruNews/hiru_news_2020-11-22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsList.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/combined.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/createCombinedText.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nGramNLTK.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocessEnglishWords.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2-updated.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test8_subagya2018.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test9.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdaderanaNewsGrabber.py" beforeDir="false" afterPath="$PROJECT_DIR$/AdaderanaNewsGrabber.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sinhala_News/AdaDerana/adaderana_news_2020-10-28.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sinhala_News/AdaDerana/adaderana_news_2020-10-28.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-10-28.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sinhala_News/Citizen/citizen_news_2020-10-28.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitizenLKNewsGrabber.py" beforeDir="false" afterPath="$PROJECT_DIR$/CitizenLKNewsGrabber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HiruNewsGrabber.py" beforeDir="false" afterPath="$PROJECT_DIR$/HiruNewsGrabber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adaderana.txt" beforeDir="false" afterPath="$PROJECT_DIR$/adaderana.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-scraping.bat" beforeDir="false" afterPath="$PROJECT_DIR$/web-scraping.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/myfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/test3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test5.py" beforeDir="false" afterPath="$PROJECT_DIR$/test5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test6.py" beforeDir="false" afterPath="$PROJECT_DIR$/test6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test7.py" beforeDir="false" afterPath="$PROJECT_DIR$/test7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threeSyllable.txt" beforeDir="false" afterPath="$PROJECT_DIR$/threeSyllable.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainNgramModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainNgramModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twoSyllable.txt" beforeDir="false" afterPath="$PROJECT_DIR$/twoSyllable.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +117,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Python.HiruNewsGrabber">
-    <configuration name="AdaderanaNewsGrabber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.test7">
+    <configuration name="test10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FYP_Approches" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,7 +130,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdaderanaNewsGrabber.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CitizenLKNewsGrabber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FYP_Approches" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,7 +151,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CitizenLKNewsGrabber.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="HiruNewsGrabber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test2-updated" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FYP_Approches" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,7 +172,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HiruNewsGrabber.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2-updated.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,10 +225,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.HiruNewsGrabber" />
-        <item itemvalue="Python.AdaderanaNewsGrabber" />
-        <item itemvalue="Python.CitizenLKNewsGrabber" />
         <item itemvalue="Python.test7" />
+        <item itemvalue="Python.test2-updated" />
+        <item itemvalue="Python.test10" />
+        <item itemvalue="Python.test11" />
         <item itemvalue="Python.test5" />
       </list>
     </recent_temporary>
@@ -209,42 +266,54 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="439" y="169" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.736@0.0.1366.736" timestamp="1603129055241" />
-    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603130825910">
+    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604861902401">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.736@0.0.1366.736" timestamp="1603130825910" />
-    <state width="1345" height="247" key="GridCell.Tab.0.bottom" timestamp="1603994906426">
+    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.736@0.0.1366.736" timestamp="1604861902401" />
+    <state width="1345" height="378" key="GridCell.Tab.0.bottom" timestamp="1606193115799">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1345" height="247" key="GridCell.Tab.0.bottom/0.0.1366.736@0.0.1366.736" timestamp="1603994906426" />
-    <state width="1345" height="247" key="GridCell.Tab.0.center" timestamp="1603994906425">
+    <state width="1345" height="378" key="GridCell.Tab.0.bottom/0.0.1366.736/1366.0.1280.689@0.0.1366.736" timestamp="1606193115799" />
+    <state width="1259" height="207" key="GridCell.Tab.0.bottom/0.0.1366.736/1366.0.1280.689@1366.0.1280.689" timestamp="1605862139112" />
+    <state width="1345" height="173" key="GridCell.Tab.0.bottom/0.0.1366.736@0.0.1366.736" timestamp="1605109101755" />
+    <state width="1345" height="378" key="GridCell.Tab.0.center" timestamp="1606193115799">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1345" height="247" key="GridCell.Tab.0.center/0.0.1366.736@0.0.1366.736" timestamp="1603994906425" />
-    <state width="1345" height="247" key="GridCell.Tab.0.left" timestamp="1603994906425">
+    <state width="1345" height="378" key="GridCell.Tab.0.center/0.0.1366.736/1366.0.1280.689@0.0.1366.736" timestamp="1606193115799" />
+    <state width="1259" height="207" key="GridCell.Tab.0.center/0.0.1366.736/1366.0.1280.689@1366.0.1280.689" timestamp="1605862139112" />
+    <state width="1345" height="173" key="GridCell.Tab.0.center/0.0.1366.736@0.0.1366.736" timestamp="1605109101753" />
+    <state width="1345" height="378" key="GridCell.Tab.0.left" timestamp="1606193115799">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1345" height="247" key="GridCell.Tab.0.left/0.0.1366.736@0.0.1366.736" timestamp="1603994906425" />
-    <state width="1345" height="247" key="GridCell.Tab.0.right" timestamp="1603994906425">
+    <state width="1345" height="378" key="GridCell.Tab.0.left/0.0.1366.736/1366.0.1280.689@0.0.1366.736" timestamp="1606193115799" />
+    <state width="1259" height="207" key="GridCell.Tab.0.left/0.0.1366.736/1366.0.1280.689@1366.0.1280.689" timestamp="1605862139112" />
+    <state width="1345" height="173" key="GridCell.Tab.0.left/0.0.1366.736@0.0.1366.736" timestamp="1605109101753" />
+    <state width="1345" height="378" key="GridCell.Tab.0.right" timestamp="1606193115799">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state width="1345" height="247" key="GridCell.Tab.0.right/0.0.1366.736@0.0.1366.736" timestamp="1603994906425" />
-    <state width="1345" height="226" key="GridCell.Tab.1.bottom" timestamp="1603562846698">
-      <screen x="0" y="0" width="1366" height="736" />
+    <state width="1345" height="378" key="GridCell.Tab.0.right/0.0.1366.736/1366.0.1280.689@0.0.1366.736" timestamp="1606193115799" />
+    <state width="1259" height="207" key="GridCell.Tab.0.right/0.0.1366.736/1366.0.1280.689@1366.0.1280.689" timestamp="1605862139112" />
+    <state width="1345" height="173" key="GridCell.Tab.0.right/0.0.1366.736@0.0.1366.736" timestamp="1605109101755" />
+    <state width="1259" height="207" key="GridCell.Tab.1.bottom" timestamp="1605862139112">
+      <screen x="1366" y="0" width="1280" height="689" />
     </state>
-    <state width="1345" height="226" key="GridCell.Tab.1.bottom/0.0.1366.736@0.0.1366.736" timestamp="1603562846698" />
-    <state width="1345" height="226" key="GridCell.Tab.1.center" timestamp="1603562846698">
-      <screen x="0" y="0" width="1366" height="736" />
+    <state width="1259" height="207" key="GridCell.Tab.1.bottom/0.0.1366.736/1366.0.1280.689@1366.0.1280.689" timestamp="1605862139112" />
+    <state width="1345" height="226" key="GridCell.Tab.1.bottom/0.0.1366.736@0.0.1366.736" timestamp="1604822062342" />
+    <state width="1259" height="207" key="GridCell.Tab.1.center" timestamp="1605862139112">
+      <screen x="1366" y="0" width="1280" height="689" />
     </state>
-    <state width="1345" height="226" key="GridCell.Tab.1.center/0.0.1366.736@0.0.1366.736" timestamp="1603562846698" />
-    <state width="1345" height="226" key="GridCell.Tab.1.left" timestamp="1603562846698">
-      <screen x="0" y="0" width="1366" height="736" />
+    <state width="1259" height="207" key="GridCell.Tab.1.center/0.0.1366.736/1366.0.1280.689@1366.0.1280.689" timestamp="1605862139112" />
+    <state width="1345" height="226" key="GridCell.Tab.1.center/0.0.1366.736@0.0.1366.736" timestamp="1604822062342" />
+    <state width="1259" height="207" key="GridCell.Tab.1.left" timestamp="1605862139112">
+      <screen x="1366" y="0" width="1280" height="689" />
     </state>
-    <state width="1345" height="226" key="GridCell.Tab.1.left/0.0.1366.736@0.0.1366.736" timestamp="1603562846698" />
-    <state width="1345" height="226" key="GridCell.Tab.1.right" timestamp="1603562846698">
-      <screen x="0" y="0" width="1366" height="736" />
+    <state width="1259" height="207" key="GridCell.Tab.1.left/0.0.1366.736/1366.0.1280.689@1366.0.1280.689" timestamp="1605862139112" />
+    <state width="1345" height="226" key="GridCell.Tab.1.left/0.0.1366.736@0.0.1366.736" timestamp="1604822062342" />
+    <state width="1259" height="207" key="GridCell.Tab.1.right" timestamp="1605862139112">
+      <screen x="1366" y="0" width="1280" height="689" />
     </state>
-    <state width="1345" height="226" key="GridCell.Tab.1.right/0.0.1366.736@0.0.1366.736" timestamp="1603562846698" />
+    <state width="1259" height="207" key="GridCell.Tab.1.right/0.0.1366.736/1366.0.1280.689@1366.0.1280.689" timestamp="1605862139112" />
+    <state width="1345" height="226" key="GridCell.Tab.1.right/0.0.1366.736@0.0.1366.736" timestamp="1604822062342" />
     <state x="135" y="8" width="998" height="708" key="SettingsEditor" timestamp="1603420938384">
       <screen x="0" y="0" width="1366" height="736" />
     </state>

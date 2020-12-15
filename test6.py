@@ -1,3 +1,4 @@
+#Sylables are created in this module
 # -*- coding: utf-8 -*-
 import os
 import io
@@ -9,8 +10,8 @@ from nltk.util import ngrams
 from nltk.lm import NgramCounter
 from itertools import chain
 sys.setrecursionlimit(10**7)
-TrigramN = 3
-BigramN = 2
+TrigramN = 4
+BigramN = 3
 # special characters
 special_chars = string.punctuation
 PermutationList = []
@@ -64,7 +65,7 @@ def GenarateTwoSyllableChunks():
 def Preprocess(InputText):
     UniqueWordList = []
     tokenized_sent = [list(map(str.lower, nltk.word_tokenize(sent)))
-                      for sent in nltk.sent_tokenize(text)]
+                      for sent in nltk.sent_tokenize(InputText)]
     for sent in tokenized_sent:
         for word in sent:
             if word not in UniqueWordList and not word.isnumeric() and word not in special_chars:
@@ -90,9 +91,8 @@ def GeneratePermutations(word):
 def SetUpUnigramModel():
     if os.path.isfile('combined.txt'):
         with io.open('combined.txt', encoding='utf8') as fin:
-            text = fin.read()
-    tokenized_text = [list(map(str.lower, nltk.word_tokenize(sent)))
-                      for sent in nltk.sent_tokenize(text)]
+            text1 = fin.read()
+    tokenized_text = [list(map(str.lower, nltk.word_tokenize(sent))) for sent in nltk.sent_tokenize(text1)]
     #print(tokenized_text)
     text_unigrams = [ngrams(sent, 1) for sent in tokenized_text]
     unigram_counter_model = NgramCounter(text_unigrams)
@@ -113,7 +113,7 @@ def SelectBestSuggestion(unigram_model, word):
         HighestTrigramScore = 0
         for w in PermutationList:
             ThreeSyllableChunks = []
-            if len(w) > 4:
+            if len(w) > TrigramN:
                 ThreeSyllableChunks = DivideTokenIntoNSyllableChunks(w,TrigramN)
                 WordTrigramScore = 0
                 for ThreeSyllableChunk in ThreeSyllableChunks:
@@ -126,7 +126,7 @@ def SelectBestSuggestion(unigram_model, word):
         HighestBigramScore = 0
         for w in PermutationList:
             TwoSyllableChunks = []
-            if len(w) > 3:
+            if len(w) > BigramN:
                 TwoSyllableChunks = DivideTokenIntoNSyllableChunks(w, BigramN)
                 WordBigramScore = 0
                 for TwoSyllableChunk in TwoSyllableChunks:
